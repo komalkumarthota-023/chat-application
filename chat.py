@@ -1,24 +1,24 @@
-# Simple Python Chat Application
+# Simple Python Chat Application   
 
-messages = []
+messages = []  
 
-print("=== Simple Chat Application ===")
-print("Type 'exit' to close the chat\n")
+print("=== Simple Chat Application ===")                            
+print("Type 'exit' to close the chat\n")   
 
-while True:
+while True:  
 
-    # User enters message
-    user_message = input("You: ")
+    # User enters message 
+    user_message = input("You: ")    
 
-    # Exit condition
+
     if user_message.lower() == "exit":
         print("Chat closed.")
         break
 
     # Store message
-    messages.append(user_message)
+    messages.append(user_message) 
 
-    # Simple bot reply
+    # Simple bot reply 
     bot_reply = "I received your message: " + user_message
 
     # Display bot reply
